@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Khusus</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      background: #000;
+      overflow-y: auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      image-rendering: high-quality;
+      -webkit-image-rendering: high-quality;
+    }
+    audio {
+      width: 100%;
+      position: sticky;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.postimg.cc/66fb73BV/Untitled87.jpg" alt="Komik part 1">
+  <audio autoplay loop controls>
+    <source src="https://youtu.be/e9nLvWHBdbk?si=8qcqLoRAJCaciFmC" type="audio/mp3"> Browser Anda tidak mendukung pemutar audio.
+  </audio>
+<script>
+  var password = prompt("Masukkan Password untuk mengakses:");
+  if (password != "potatokentang") {
+    document.body.innerHTML = "Akses ditolak!";
+  }
+</script>
+</body>
+</html>
